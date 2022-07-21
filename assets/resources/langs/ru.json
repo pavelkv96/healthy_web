@@ -1,0 +1,84 @@
+{
+  "authentication_feature": {
+    "sign_in": {
+      "title": "Заголовок",
+      "login_button_title": "Войти",
+      "profiles_empty_list": "Пользователи не найдены"
+    }
+  },
+  "sign_up_feature": {
+    "title": "Анкета пользователя",
+    "general_container" : {
+      "title": "Сведения о пользователе",
+      "surname_field": {
+        "hint": "Фамилия",
+        "error": {
+          "empty": "Поле не должно быть пустым"
+        }
+      },
+      "name_field": {
+        "hint": "Имя",
+        "error": {
+          "empty": "Поле не должно быть пустым"
+        }
+      },
+      "patronymic_field": {
+        "hint": "Отчество"
+      },
+      "gender_field": {
+        "hint": "Пол",
+        "choice": {
+          "unselected": "Невыбрано",
+          "user_male": "Мужской",
+          "user_female": "Женский"
+        }
+      },
+      "birthday_field": {
+        "hint": "Дата рождения",
+        "empty_value": "Не указано"
+      }
+    },
+    "additional_container" : {
+      "title": "Дополнительные данные",
+      "disease_field": {
+        "hint": "Заболевание",
+        "choice": {
+          "none": "Нет",
+          "phenylketonuria": "Фенилкетонурия",
+          "celiac": "Целиакия"
+        }
+      }
+    },
+    "anthropometry_container": {
+      "title": "Антропометрия",
+      "height_field": {
+        "hint": "Рост",
+        "suffix": "см"
+      },
+      "weight_field": {
+        "hint": "Вес",
+        "suffix": "кг"
+      },
+      "waist_field": {
+        "hint": "Окружность талии",
+        "suffix": "см"
+      },
+      "hip_field": {
+        "hint": "Окружность бёдер",
+        "suffix": "см"
+      },
+      "common_error": {
+        "empty": "Поле не должено быть пустым или равным нулю"
+      }
+    }
+  },
+  "core": {
+    "app_title": "Тестовый заголовок",
+    "failure": {
+      "local": {
+        "database_failure": "Произошла ошибка при получении данных из базы данных"
+      },
+      "unknown_failure": "Произошла непредвиденная ошибка"
+    }
+  }
+}
