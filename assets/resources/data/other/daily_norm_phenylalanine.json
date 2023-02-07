@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "age": {
+        "min": 0,
+        "max": 6
+      },
+      "protein": {
+        "min": 2.4,
+        "max": 2.4
+      },
+      "phenylalanine": {
+        "min": 30,
+        "max": 60
+      }
+    },
+    {
+      "age": {
+        "min": 6,
+        "max": 12
+      },
+      "protein": {
+        "min": 2.1,
+        "max": 2.1
+      },
+      "phenylalanine": {
+        "min": 30,
+        "max": 60
+      }
+    },
+    {
+      "age": {
+        "min": 12,
+        "max": 36
+      },
+      "protein": {
+        "min": 1.95,
+        "max": 2.1
+      },
+      "phenylalanine": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    {
+      "age": {
+        "min": 48,
+        "max": 72
+      },
+      "protein": {
+        "min": 30.0,
+        "max": 35.0
+      },
+      "phenylalanine": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    {
+      "age": {
+        "min": 84,
+        "max": 108
+      },
+      "protein": {
+        "min": 35.0,
+        "max": 40.0
+      },
+      "phenylalanine": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    {
+      "age": {
+        "min": 120,
+        "max": 144
+      },
+      "protein": {
+        "min": 45.0,
+        "max": 50.0
+      },
+      "phenylalanine": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    {
+      "age": {
+        "min": 156,
+        "max": 1440
+      },
+      "protein": {
+        "min": 0.9,
+        "max": 1.0
+      },
+      "phenylalanine": {
+        "min": 5,
+        "max": 15
+      }
+    }
+  ]
+}

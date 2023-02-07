@@ -1,0 +1,324 @@
+{
+  "authentication_feature": {
+    "sign_in": {
+      "title": "Заголовок",
+      "login_button_title": "Войти",
+      "profiles_empty_list": "Пользователи не найдены"
+    }
+  },
+  "calculate_daily_norm_feature": {
+    "title": "Расчёт нормы фенилаланина",
+    "body": {
+      "weight_tile": {
+        "title": "Вес"
+      },
+      "age_tile": {
+        "title": "Возраст",
+        "select_range": {
+          "on_month": "полных месяцев",
+          "on_year": "полных лет"
+        }
+      },
+      "total_container": {
+        "success": {
+          "daily_norm_protein": {
+            "title": "Норма потребления белка ",
+            "details": "= {min}-{max} г"
+          },
+          "daily_norm_phenylalanine": {
+            "title": "Норма потребления фенилаланина ",
+            "details": "= {min}-{max}* мг"
+          },
+          "daily_norm_recommendation": "*рекомендовано ориентироваться на нижние границы нормы."
+        },
+        "failure": {
+          "message": "Нет данных для отображения, возможно заданы некорректные параметры"
+        }
+      }
+    }
+  },
+  "diary_feature": {
+    "diary": {
+      "title": "Дневник питания",
+      "lunch_card": {
+        "table_header": {
+          "column_1": "Продукты/блюда",
+          "column_2": "Масса, гр.",
+          "column_3": "Фенилаланин, гр.",
+          "column_4": "ккал",
+          "column_5": "Белки, гр.",
+          "column_6": "Жиры, гр.",
+          "column_7": "Углеводы, гр."
+        },
+        "table_content": {
+          "total": "Итого"
+        },
+        "footer": {
+          "edit": "Редактировать"
+        },
+        "cell_menu": {
+          "edit": "Редактировать",
+          "edit_chemical_composition": "Редактировать хим состав",
+          "copy": "Копировать в ...",
+          "move": "Переместить в ...",
+          "show_chemical_composition": "Химический состав",
+          "delete": "Удалить строку"
+        },
+        "card_menu": {
+          "copy": "Скопировать в ...",
+          "move": "Переместить в ...",
+          "delete": "Очистить"
+        }
+      }
+    }
+  },
+  "sign_up_feature": {
+    "title": "Анкета пользователя",
+    "general_container": {
+      "title": "Сведения о пользователе",
+      "surname_field": {
+        "hint": "Фамилия",
+        "error": {
+          "empty": "Поле не должно быть пустым"
+        }
+      },
+      "name_field": {
+        "hint": "Имя",
+        "error": {
+          "empty": "Поле не должно быть пустым"
+        }
+      },
+      "patronymic_field": {
+        "hint": "Отчество"
+      },
+      "gender_field": {
+        "hint": "Пол"
+      },
+      "birthday_field": {
+        "hint": "Дата рождения"
+      }
+    },
+    "additional_container": {
+      "title": "Дополнительные данные",
+      "disease_field": {
+        "hint": "Заболевание"
+      }
+    },
+    "anthropometry_container": {
+      "title": "Антропометрия",
+      "height_field": {
+        "hint": "Рост*"
+      },
+      "weight_field": {
+        "hint": "Вес*"
+      },
+      "waist_field": {
+        "hint": "Окружность талии",
+        "dialog": {
+          "title": "Заголовок",
+          "content": "Контент"
+        }
+      },
+      "hip_field": {
+        "hint": "Окружность бёдер",
+        "dialog": {
+          "title": "Заголовок",
+          "content": "Контент"
+        }
+      },
+      "common_error": {
+        "empty": "Поле не должено быть пустым или равным нулю"
+      }
+    }
+  },
+  "profile_details": {
+    "full_name_tile": {
+      "title": "ФИО",
+      "dialog": {
+        "title": "Редактирование ФИО",
+        "surname_field" : {
+          "hint": "Фамилия",
+          "error": {
+            "empty": "Поле не должно быть пустым"
+          }
+        },
+        "name_field": {
+          "hint": "Имя",
+          "error": {
+            "empty": "Поле не должно быть пустым"
+          }
+        },
+        "patronymic_field": {
+          "hint": "Отчество"
+        }
+      }
+    },
+    "gender_tile": {
+      "title": "Пол"
+    },
+    "birthday_tile": {
+      "title": "Дата рождения"
+    },
+    "disease_tile": {
+      "title": "Заболевание"
+    },
+    "anthropometry_tile": {
+      "title": "Антропометрия"
+    },
+    "delete_tile": {
+      "title": "Удалить профиль",
+      "dialog": {
+        "title": "Удалить профиль?",
+        "description": "Все связанные с этим профилем данные будут без возвратно удалены. Хотите продолжить?"
+      }
+    }
+  },
+  "more_feature": {
+    "title": "Ещё",
+    "tile": {
+      "my_profile": "Мой профиль",
+      "recipe": "Рецептуры и технологические карты",
+      "my_products_and_dishes": "Мои блюда и продукты",
+      "report": "Отчёт",
+      "feedback": "Обратная связь",
+      "about_diseases": "Справочные данные о заболеваниях",
+      "settings": "Настройки",
+      "logout": "Выйти"
+    }
+  },
+  "core": {
+    "app_title": "Здоровая нация",
+    "failure": {
+      "local": {
+        "database_failure": "Произошла ошибка при получении данных из базы данных"
+      },
+      "unknown_failure": "Произошла непредвиденная ошибка"
+    },
+    "widget": {
+      "button": {
+        "forward": "Далее",
+        "previous": "Назад",
+        "save": "Сохранить",
+        "ok": "Ок",
+        "delete": "Удалить",
+        "cancel": "Отмена"
+      }
+    },
+    "units": {
+      "metric": {
+        "cm": "см",
+        "cm_dot": "см."
+      },
+      "weight": {
+        "kg": "кг",
+        "kg_dot": "кг.",
+        "g": "г",
+        "g_dot": "г.",
+        "mg": "мг",
+        "mg_dot": "мг.",
+        "mcg": "мкг",
+        "mcg_dot": "мкг."
+      },
+      "calories": {
+        "kcal": "ккал."
+      }
+    },
+    "utils": {
+      "disease": {
+        "none": "Отсутствует",
+        "phenylketonuria": "Фенилкетонурия",
+        "celiac": "Целиакия"
+      },
+      "gender": {
+        "user_male": "Мужской",
+        "user_female": "Женский",
+        "unknown": "Неизвестно"
+      },
+      "meal_time": {
+        "breakfast": "Завтрак",
+        "morning_snack": "Утренний перекус",
+        "lunch": "Обед",
+        "afternoon_snack": "Дневной перекус",
+        "supper": "Ужин",
+        "evening_snack": "Вечерний перекус"
+      },
+      "other": {
+        "gluten_state": {
+          "have": "Есть",
+          "none": "Отсутствует",
+          "maybe": "Может быть источником"
+        },
+        "unknown": "Неизвестно",
+        "unspecified": "Не указано",
+        "unselected": "Не выбрано"
+      }
+    },
+    "product_component": {
+      "amino_acids": {
+        "title": "Незаменимые аминокислоты",
+        "methionine": "Метионин",
+        "valine": "Валин",
+        "isoleucine": "Изолейцин",
+        "leucine": "Лейцин",
+        "lysine": "Лизин",
+        "threonine": "Треонин",
+        "tryptophan": "Триптофан",
+        "phenylalanine": "Фенилаланин",
+        "arginine": "Аргинин",
+        "histidine": "Гистидин"
+      },
+      "carbohydrates": {
+        "title": "Углеводы",
+        "mono_and_disaccharides": "Моно- и дисахариды",
+        "cellulose": "Клетчатка",
+        "starch": "Крахмал",
+        "pectin": "Пектин",
+        "total_carbohydrates": "Углеводы, всего"
+      },
+      "macronutrients": {
+        "title": "Макроэлементы",
+        "potassium": "Калий",
+        "calcium": "Кальций",
+        "magnesium": "Магний",
+        "sodium": "Натрий",
+        "phosphorus": "Фосфор"
+      },
+      "micronutrients": {
+        "title": "Микроэлементы",
+        "iron": "Железо",
+        "iodine": "Йод",
+        "cobalt": "Кобальт",
+        "manganese": "Марганец",
+        "copper": "Медь",
+        "molybdenum": "Молибден",
+        "fluorine": "Фтор",
+        "zinc": "Цинк"
+      },
+      "vitamins": {
+        "title": "Витамины",
+        "retinol": "А (ретинол)",
+        "beta_carotene": "бета-каротин",
+        "tocopherol": "Е (токоферол)",
+        "vitamin_c": "С (аскорбиновая кислота)",
+        "thiamine": "В1 (тиамин)",
+        "riboflavin": "В2 (рибофлавин)",
+        "folic_acid": "В9 (фолиевая кислота)",
+        "niacin": "РР (ниацин)"
+      },
+      "other_elements": {
+        "title": "Остальные данные",
+        "water": "Вода",
+        "proteins": "Белки",
+        "gluten": "Глютен",
+        "fats": "Жиры",
+        "organic_acids": "Органические кислоты",
+        "ash": "Зола",
+        "calories": "Энергетическая ценность",
+        "time_digestion": "Время переваривания",
+        "oxidation": "Окисление",
+        "alkalization": "Ощелачивание",
+        "alcohol": "Спирт"
+      }
+    }
+  }
+}
